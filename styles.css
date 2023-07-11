@@ -202,11 +202,8 @@ a {
   border-radius: 0.5rem;
   height: 250px;
   margin: 0rem 0.5rem;
-  overflow: auto;
-}
-
-.card::-webkit-scrollbar {
-  display: none;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .card-img {
@@ -222,12 +219,14 @@ a {
   margin: 0;
   font-size: 0.7rem;
   opacity: 0.5;
-  overflow: auto;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
+/* 
 .card-description::-webkit-scrollbar {
   display: none;
-}
+} */
 
 .player {
   width: 100%;
