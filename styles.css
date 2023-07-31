@@ -238,7 +238,9 @@ a {
   transition: transform 0.9s;
   transform-style: preserve-3d;
   transform: rotate3d(1, 1, 0, 360deg);
+  flex: none;
 }
+
 
 .card-img {
   width: 100%;
